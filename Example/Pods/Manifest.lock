@@ -1,0 +1,16 @@
+PODS:
+  - ksiziva2019 (0.1.0)
+
+DEPENDENCIES:
+  - ksiziva2019 (from `../`)
+
+EXTERNAL SOURCES:
+  ksiziva2019:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ksiziva2019: e6fa8c2ebae32c9a2002eb3203db83e740fb635f
+
+PODFILE CHECKSUM: c3957fda03fdf2904b96ce5fe742b54a3bb3e6b0
+
+COCOAPODS: 1.8.4

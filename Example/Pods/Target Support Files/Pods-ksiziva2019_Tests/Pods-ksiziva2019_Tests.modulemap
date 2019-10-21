@@ -1,0 +1,6 @@
+framework module Pods_ksiziva2019_Tests {
+  umbrella header "Pods-ksiziva2019_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

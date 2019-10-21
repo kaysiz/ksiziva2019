@@ -1,0 +1,22 @@
+{
+  "name": "ksiziva2019",
+  "version": "0.1.0",
+  "summary": "A short description of ksiziva2019.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/kaysiz/ksiziva2019",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "kaysiz": "ksiziva@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/kaysiz/ksiziva2019.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ksiziva2019/Classes/**/*"
+}

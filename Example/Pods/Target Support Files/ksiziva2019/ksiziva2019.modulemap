@@ -1,0 +1,6 @@
+framework module ksiziva2019 {
+  umbrella header "ksiziva2019-umbrella.h"
+
+  export *
+  module * { export * }
+}
