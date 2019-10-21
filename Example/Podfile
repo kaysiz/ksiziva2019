@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ksiziva2019_Example' do
+  pod 'ksiziva2019', :path => '../'
+
+  target 'ksiziva2019_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
