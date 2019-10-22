@@ -16,7 +16,6 @@
 		75779A342D9B0649C6576CEBD88533B9 /* Pods-ksiziva2019_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F94FDC1286A9179A49F292288A2F5001 /* Pods-ksiziva2019_Example-dummy.m */; };
 		859C383B9545FF2386DFD2B881F286EB /* Pods-ksiziva2019_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 890712D79897ADD0AD767A948F34EC37 /* Pods-ksiziva2019_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D37B5FCC7EB43BE4A9C45010C3850F9C /* Pods-ksiziva2019_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DD70948F74558077F15159D0C4F25AE /* Pods-ksiziva2019_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E75F992DCE8DC119A5FDC679C3767B81 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BA864C0C28F660097C34E57FB964C3 /* ReplaceMe.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,11 +38,11 @@
 /* Begin PBXFileReference section */
 		0301B0AFD69DE8645380C04ADE8EFEBB /* Pods-ksiziva2019_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ksiziva2019_Example.release.xcconfig"; sourceTree = "<group>"; };
 		04495AA64E61259781E8B976A6115A3A /* Pods-ksiziva2019_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ksiziva2019_Example-Info.plist"; sourceTree = "<group>"; };
-		0EB8FC9DF17ABE66D2D2A16CDB063823 /* Pods_ksiziva2019_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ksiziva2019_Example.framework; path = "Pods-ksiziva2019_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EB8FC9DF17ABE66D2D2A16CDB063823 /* Pods_ksiziva2019_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ksiziva2019_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		114EFD1A99C0D1E410FB870C8CB5E22B /* Pods-ksiziva2019_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ksiziva2019_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		1AD5EDFD01091E5CB6A53E0DFD916758 /* ksiziva2019-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ksiziva2019-umbrella.h"; sourceTree = "<group>"; };
 		20EF93D75696B62672DB6A7AA4E1EA37 /* Pods-ksiziva2019_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ksiziva2019_Tests-dummy.m"; sourceTree = "<group>"; };
-		2CA85550DB3A89E1C458ED73FCE90FAF /* ksiziva2019.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ksiziva2019.framework; path = ksiziva2019.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CA85550DB3A89E1C458ED73FCE90FAF /* ksiziva2019.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ksiziva2019.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		42638ED488346F8FD1C4BC59A47B4D6D /* ksiziva2019-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ksiziva2019-Info.plist"; sourceTree = "<group>"; };
 		5422777308221A0A02C61E9028929C25 /* Pods-ksiziva2019_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ksiziva2019_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -57,17 +56,16 @@
 		8C1BE6C939C52643B70B4BF2E7496D85 /* ksiziva2019-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ksiziva2019-dummy.m"; sourceTree = "<group>"; };
 		91629EA36536938972D25A5AFD286A6D /* ksiziva2019.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ksiziva2019.modulemap; sourceTree = "<group>"; };
 		95582708210CBAD9B35012D653DD5DD8 /* Pods-ksiziva2019_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ksiziva2019_Example.modulemap"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AD014C419A99A7938B2E2582819CC583 /* Pods-ksiziva2019_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ksiziva2019_Tests.modulemap"; sourceTree = "<group>"; };
-		B9216D50368EDF74DB32DF3CF5BF8454 /* Pods_ksiziva2019_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ksiziva2019_Tests.framework; path = "Pods-ksiziva2019_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BE2B9774520DCF634B2D6C82A3A0522F /* ksiziva2019.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ksiziva2019.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		C59B9C8931D1839152AEC49103B0F991 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		CBFA5046E3E0697DABA162E6FE4F6C5D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		B9216D50368EDF74DB32DF3CF5BF8454 /* Pods_ksiziva2019_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ksiziva2019_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE2B9774520DCF634B2D6C82A3A0522F /* ksiziva2019.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ksiziva2019.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C59B9C8931D1839152AEC49103B0F991 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		CBFA5046E3E0697DABA162E6FE4F6C5D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		D31EA243081A701BDF0B1EB59A2ECDFC /* Pods-ksiziva2019_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ksiziva2019_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D397E4033B2F83ECD90E19F189EEE9EF /* Pods-ksiziva2019_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ksiziva2019_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		D8173D0E9FFC017E1DF6EB60DD51B078 /* ksiziva2019.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ksiziva2019.xcconfig; sourceTree = "<group>"; };
 		D9F73C55460FA445D59289863DB138CB /* Pods-ksiziva2019_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ksiziva2019_Tests-Info.plist"; sourceTree = "<group>"; };
-		F4BA864C0C28F660097C34E57FB964C3 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = ksiziva2019/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		F94FDC1286A9179A49F292288A2F5001 /* Pods-ksiziva2019_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ksiziva2019_Example-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -99,6 +97,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F98CF84235E4054008FE526 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
 		2AD8AAF9EC5318C2697FEEEEE9D52B36 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -186,7 +191,7 @@
 		C896621C3BA7A4D7390E1731D28FB607 /* ksiziva2019 */ = {
 			isa = PBXGroup;
 			children = (
-				F4BA864C0C28F660097C34E57FB964C3 /* ReplaceMe.swift */,
+				1F98CF84235E4054008FE526 /* Source */,
 				9EEF2CA56A0B905427C3206036F5AB8C /* Pod */,
 				3F6DD4FEEAAC5026C27044966AC348D4 /* Support Files */,
 			);
@@ -381,7 +386,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				62795A2F2FB802A87FCC302A6B670005 /* ksiziva2019-dummy.m in Sources */,
-				E75F992DCE8DC119A5FDC679C3767B81 /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -622,8 +626,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
